@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anillo Tiana | Vhaki</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <a href="index.html" class="back">← Atrás</a>
+  <h1>Vhaki</h1>
+</header>
+
+<section class="product-banner">
+  <img src="img/princesa-sapo.png">
+</section>
+
+<section class="product-info">
+  <h2>Anillo Tiana</h2>
+  <p>Pieza en Acero Inoxidable. Anillo regulable, se ajusta a tu medida.</p>
+
+  <div class="qty">
+    <button onclick="changeQty(-1)">−</button>
+    <span id="qty">1</span>
+    <button onclick="changeQty(1)">+</button>
+  </div>
+
+  <button class="btn-cart" onclick="addToCart()">AÑADIR AL CARRITO</button>
+  <a href="carrito.html" class="btn-buy">COMPRAR AHORA</a>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
